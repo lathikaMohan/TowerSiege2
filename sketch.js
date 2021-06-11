@@ -49,7 +49,7 @@ function setup() {
 
   console.log(polygon);
 
-  sling = new slingshot(polygon,{x:100,y:200});
+  sling = new Slingshot(polygon,{x:100,y:200});
 
 
   piece1 = new Block(625,175,30,40);
